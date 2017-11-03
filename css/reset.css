@@ -1,0 +1,23 @@
+
+*{ font-weight: normal; }
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+:link,:visited { text-decoration:none; color: inherit; }
+
+ul,ol { list-style:none }
+
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,hr,pre,form,body,html,p,button,blockquote,fieldset,input
+{ margin:0; padding:0 }
+a {cursor: pointer;}
+a img,:link img,:visited img { border:none;}
+input:focus, button:focus { outline: none; }
+address { font-style:normal }
+button { cursor: pointer; border: none; background: transparent; }
+hr { width: 938px; }
+textarea { resize: none; }
+input { border: none; outline: none; }

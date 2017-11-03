@@ -1,0 +1,48 @@
+#top-menu  ul{
+    display: none;
+    background-color: #800000;
+    /*background-color: FireBrick;*/
+    position: absolute;
+    top: 100%;
+}
+#top-menu  li:hover ul {
+    /*width: 150px;*/
+    background-color: FireBrick;
+    display: block;
+}
+#top-menu , #top-menu  ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.razdel:hover {
+    background-color: #800000;
+
+}
+#top-menu  {
+    height: 30px;
+    background-color: #800000;
+    /*padding-left: 25px;*/
+    min-width: 470px;
+    /*padding: 0 15%;*/
+}
+#top-menu  li {
+    float: right;
+    position: relative;
+    height: 100%;
+}
+#top-menu  li a {
+    display: block;
+    padding: 6px;
+    /*width: 100px;*/
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font:14px NotoSans, Geneva, sans-serif;
+}
+#top-menu  ul li { float: none; }
+#top-menu  li:hover { background-color: FireBrick; }
+#top-menu  ul li:hover { background-color: FireBrick; }
+
+
