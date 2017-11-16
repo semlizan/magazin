@@ -1,0 +1,81 @@
+.post{
+    display: block;
+    margin: 0 auto;
+}
+.meta{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    font:40px tempus sans itc, Monotype Corsiva, sans-serif;
+    color:  #800000;
+    text-align: center;
+    display: block
+}
+.entry{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 250px;
+    background: peachpuff;
+    color:  #800000;
+    /*float: left;*/
+}
+.anketa-input{
+    float: right;
+    margin: 0 5px;
+}
+.anketa-head{
+    margin: 0 5px;
+}
+.anketa-submit{
+    border: none;
+    text-align: center;
+    background: FireBrick;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    height:inherit;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Сomic Sans MS";
+}
+
+.entry_v{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 220px;
+    background: peachpuff;
+    color:  #800000;
+    /*float: left;*/
+}
+.entry_lk{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 300px;
+    background: peachpuff;
+    color:  #800000;
+    /*float: left;*/
+}
+.vxod-submit{
+    border: none;
+    text-align: center;
+    background: FireBrick;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height:inherit;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Сomic Sans MS";
+}

@@ -1,0 +1,51 @@
+.article{
+    display: block;
+    background: peachpuff;
+    margin: 0 auto;
+    height: 600px;
+}
+.layer1 {
+    float: left; /* Обтекание по правому краю */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 245px; /* Ширина блока */
+}
+.info{
+    display: block;
+    width: 500px;
+    height: 180px;
+    float: left; /* Обтекание по правому краю */
+}
+.product-to-basket2{
+    /*display: block;*/
+    border: none;
+    text-align: center;
+    background: FireBrick;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height:inherit;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Сomic Sans MS";
+}
+
+.to_basket{
+    /*display: block;*/
+    background: #48b27f;
+    width: 500px;
+    height: 45px;
+}
+.basket{
+    display: block;
+    text-align: center;
+    float: left;
+    width: 100px;
+    height:inherit;
+    margin: 0 5px;
+    color: #fffef6;
+    font-family: "Сomic Sans MS";
+    font-size: 17px;
+
+}

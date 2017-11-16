@@ -6,11 +6,6 @@
     overflow: hidden
 }
 
-/*img{*/
-    /*width: 200px;*/
-    /*height: 150px;*/
-/*}*/
-
 /*слайды*/
 #scr {
     margin:20px auto;
@@ -21,61 +16,3 @@
     background-size:cover;
     border-radius:10px;
 }
-/*товары*/
-/*.article{*/
-    /*!*background-color: DarkGray;*!*/
-    /*!*margin: 0 20px;*!*/
-    /*width: 170px;*/
-    /*height: 100%;*/
-    /*!*float: inherit;*!*/
-/*}*/
-
-.article-top{
-    height: 200px;
-    /*padding:20px;*/
-}
-.article{
-    /*background-color: DarkGray;*/
-    /*margin: 0 10px;*/
-    float: left;
-    width: 170px;
-    height: 100%;
-}
-.article:hover{
-background-color: Grey;
-width: 170px;
-height: 100%;
-/*float: inherit;*/
-}
-.article-logo{
-    /*background-color: DarkGray;*/
-    /*background-color: SteelBlue;*/
-    width: 170px;
-    height: 70%;
-    /*background-image:url(../images/no_img.jpg);*/
-    /*background-image: ;*/
-}
-.article-logo-img{
-    width: 100%;
-    height: 100%;
-}
-.article-info{
-    height: 30px;
-    padding: 15px 0;
-    /*background-color: SteelBlue;*/
-    /*visibility: hidden;*/
-}
-.article-info:hover{
-    /*visibility: visible;*/
-}
-.article-favorites{
-    /*margin: auto;*/
-    /*background-image: url("/images/no_favorites.png");*/
-    width: 30px;
-    height: 30px;
-}
-.article-favorites-img{
-    width: 100%;
-    height: 100%;
-}
-

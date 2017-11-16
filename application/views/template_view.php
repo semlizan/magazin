@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="/css/top-menu.css" />
     <link rel="stylesheet" type="text/css" href="/css/content_main.css" />
     <link rel="stylesheet" type="text/css" href="/css/catalog.css" />
+    <link rel="stylesheet" type="text/css" href="/css/tovar.css" />
+    <link rel="stylesheet" type="text/css" href="/css/registr.css" />
+    <link rel="stylesheet" type="text/css" href="/css/table.css" />
 
 </head>
 <body>
@@ -16,17 +19,21 @@
 <header class="header">
     <ul id="top-menu">
         <li><a href="/">Главная</a></li>
-        <li><a href="#">Авторизация</a></li>
-        <li><a href="#">Личный кабинет</a></li>
+        <li><a href="/user/registr">Регистрация</a></li>
+        <li><a href="/user/vxod">Вход</a></li>
+        <li><a href="/user/LK">Личный кабинет</a>
+        <ul><a href="/user/history">История заказов</a></ul>
+
+        </li>
     </ul>
 
     <div id="logo"><a href="/" class="a-main">ШилоНаМыло</a></div>
 
     <ul id="top-menu">
         <li><a href="/catalog/">Женское</a></li>
-        <li><a href="#">Мужское</a></li>
-        <li><a href="#">Детское</a></li>
-        <li><a href="#">Акции</a></li>
+        <li><a href="/catalog/">Мужское</a></li>
+        <li><a href="/catalog/">Детское</a></li>
+        <li><a href="/catalog/">Акции</a></li>
         <li><a href="#">О нас</a></li>
     </ul>
 
