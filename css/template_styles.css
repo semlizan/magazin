@@ -44,7 +44,7 @@ header {
     display: block
 }
 .wrapper{
-    min-height: 500px;
+    min-height: 400px;
     /*width: 800px;*/
     margin: 0 auto;
     padding: 0 15%;
@@ -53,7 +53,8 @@ header {
 }
 
 .content{
-    min-height: inherit;
+    min-height: 400px;
+    /*min-height: inherit;*/
     /*width: inherit;*/
     margin: 0 auto;
 

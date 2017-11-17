@@ -2,7 +2,7 @@
     display: block;
     background: peachpuff;
     margin: 0 auto;
-    height: 600px;
+    height: 400px;
 }
 .layer1 {
     float: left; /* Обтекание по правому краю */
@@ -11,9 +11,10 @@
     width: 245px; /* Ширина блока */
 }
 .info{
+    /*background: FireBrick;*/
     display: block;
     width: 500px;
-    height: 180px;
+    height: 200px;
     float: left; /* Обтекание по правому краю */
 }
 .product-to-basket2{
@@ -33,7 +34,7 @@
 
 .to_basket{
     /*display: block;*/
-    background: #48b27f;
+    /*background: #48b27f;*/
     width: 500px;
     height: 45px;
 }
@@ -44,8 +45,16 @@
     width: 100px;
     height:inherit;
     margin: 0 5px;
-    color: #fffef6;
+    color: #070304;
     font-family: "Сomic Sans MS";
     font-size: 17px;
 
+}
+.comment{
+    background: FireBrick;
+    display: block;
+    width: 800px;
+    height: 200px;
+    float: left;
+    padding: 0 5px; /* Поля вокруг текста */
 }

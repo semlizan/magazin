@@ -23,4 +23,8 @@ class Controller_User extends Controller {
 
         $this->view->generate('history_2');
     }
+    function action_basket() {
+
+        $this->view->generate('basket');
+    }
 }

@@ -23,6 +23,7 @@
         <li><a href="/user/vxod">Вход</a></li>
         <li><a href="/user/LK">Личный кабинет</a>
         <ul><a href="/user/history">История заказов</a></ul>
+        <li><a href="/user/basket">Корзина</a>
 
         </li>
     </ul>
@@ -48,6 +49,7 @@
     $controller = $this->controller->get_name_controller();
     include "application/views/$controller/$action.php";
     ?>
+    <div class="clear"></div>
 </main>
 <!-- / Main Content -->
 

@@ -1,26 +1,51 @@
 .entry_tab{
-    t-align: center;
+    text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
-    width: 460px;
-    height: 300px;
+    /*padding-top: 20px;*/
+    /*width: 600px;*/
+    min-height: 300px;
     background: peachpuff;
-    color:  #800000;
 }
-TABLE {
-    margin: 0 auto;
-    background: #800000; /* Цвет фона таблицы */
-    color: white; /* Цвет текста */
-    /*height: 300px;*/
-}
-TD {
-    background: peachpuff;
-    color: black;
+.user-order{
+
+    height: 50px;
+    background-color: peachpuff;
+    width: 100%;
     text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px NotoSans, Geneva, sans-serif;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+.user-order-2{
+
+    height: 50px;
+    background-color: peachpuff;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px NotoSans, Geneva, sans-serif;
+    font-size: large; font-weight: bold
+    color: black;
+    border: none;
+    border-bottom: 1px solid FireBrick;
 
 }
-TH{
-    border: 1px solid #fff;
-    text-align: left;
+.user-order-span{
+    width: 150px;
+    display: inline-block;
+}
+.user-order:hover{
+    background-color: FireBrick;
+    color: white;
+}
+.user-order:focus{
+    outline: none;
+    background-color: FireBrick;
+    color: white;
+    border: none;
 }
