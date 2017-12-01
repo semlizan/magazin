@@ -32,16 +32,20 @@
     font: 17px tempus sans itc, Monotype Corsiva, sans-serif;
 }
 .anketa-submit {
+
     border: none;
     text-align: center;
     background: FireBrick;
     border-radius: 25px;
     cursor: pointer;
     width: 200px;
-    height: inherit;
+    height: 30px;
     margin: 0 5px;
     color: #fff;
     font: 17px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.anketa-submit:hover {
+outline: none;
 }
 .entry_v{
     text-align: center;

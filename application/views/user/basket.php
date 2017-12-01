@@ -27,7 +27,11 @@
                 <span class="user-order-span-kor"> итог </span>
                 <span class="user-order-span-kor"> 400 </span>
             </div>
-            <input type="submit" name="adduser" class="anketa-submit" value="Оформить заказ">
+            <a href="/user/zakaz">
+                <input type="submit" name="adduser" class="anketa-submit" value="Оформить заказ">
+            </a>
+
+
         </div>
     </div>
 </div>

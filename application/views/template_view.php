@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/css/table.css" />
     <link rel="stylesheet" type="text/css" href="/css/basket.css" />
     <link rel="stylesheet" type="text/css" href="/css/admin.css" />
-    <link rel="stylesheet" type="text/css" href="/css/js.css" />
+    <link rel="stylesheet" type="text/css" href="/css/zakaz.css" />
 
 </head>
 <body>

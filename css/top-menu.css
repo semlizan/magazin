@@ -1,5 +1,5 @@
 .lk{
-     height: 20px;
+     height: 30px;
      /*width: 990px;*/
      margin: 0 auto;
  }
@@ -41,8 +41,9 @@
     height: 100%;
 }
 #top-menu  li a {
+
     display: block;
-    padding: 6px;
+    padding-bottom: 6px;
     width: 110px;
     color: #ffffff;
     text-decoration: none;

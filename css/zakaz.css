@@ -1,0 +1,34 @@
+.entry_zak{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 400px;
+    height: inherit;
+    background: peachpuff;
+    color:  #800000;
+    /*float: left;*/
+}
+.zakaz-itog{
+    margin: 0 auto;
+    padding: 10px 0;
+    height: 21px;
+    background-color: peachpuff;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-size: large; font-weight: bold;
+    color: black;
+    border: none;
+    border-top: 1px solid FireBrick;
+
+}
+.zakaz-span{
+    width: 150px;
+    display: inline-block;
+    font: 25px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}

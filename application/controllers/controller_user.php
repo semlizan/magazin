@@ -27,4 +27,8 @@ class Controller_User extends Controller {
 
         $this->view->generate('basket');
     }
+    function action_zakaz() {
+
+        $this->view->generate('zakaz');
+    }
 }

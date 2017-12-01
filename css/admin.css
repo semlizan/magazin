@@ -1,7 +1,7 @@
 .admin-order-status{
     float: inherit;
     padding: 5px;
-    width: 150px;
+    width: 158px;
     font:19px tempus sans itc, Monotype Corsiva, sans-serif;
     border: none;
     background-color: peachpuff;
@@ -27,6 +27,9 @@
     /*margin: 0 auto;*/
     color: #fff;
     font:19px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.btn-order-admin:focus{
+   outline: none;
 }
 .admin-form-status{
     width: 350px;

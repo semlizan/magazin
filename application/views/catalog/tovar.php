@@ -30,6 +30,14 @@
             <div class="comment">
                 <span class="catalog-tovar-info-span">Отзывы</span>
 
+                <form  method="post">
+                    <input name="name" type="text" class="catalog-name" placeholder="Введите имя">
+                    <textarea name="info" id="" cols="30" rows="10" class="catalog-info" placeholder="Введите сообщение"></textarea>
+
+                    <div class="gap"></div>
+                    <input type="submit" name="adduser" class="catalog-submit" value="Отправить">
+                </form>
+
             </div>
 
     </div>
