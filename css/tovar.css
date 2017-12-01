@@ -2,18 +2,38 @@
     display: block;
     background: peachpuff;
     margin: 0 auto;
-    height: 400px;
+    min-height: 400px;
+}
+.catalog-tovar-name{
+    font:32px tempus sans itc, Monotype Corsiva, sans-serif;
+    width: 200px;
+    text-align: left;
+    display: inline-block;
+}
+.catalog-tovar-refactor{
+    font:28px tempus sans itc, Monotype Corsiva, sans-serif;
+    width: 200px;
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    height: 42px;
+    color: black;
+    padding: 0 20px;
+}
+.catalog-tovar-info-span{
+    font:28px tempus sans itc, Monotype Corsiva, sans-serif;
 }
 .layer1 {
     float: left; /* Обтекание по правому краю */
     padding: 10px; /* Поля вокруг текста */
-    margin-right: 20px; /* Отступ справа */
     width: 245px; /* Ширина блока */
+    display: inline-block;
 }
 .info{
     /*background: FireBrick;*/
-    display: block;
-    width: 500px;
+    display: inline-block;
+    width: 450px;
     height: 200px;
     float: left; /* Обтекание по правому краю */
 }
@@ -28,33 +48,54 @@
     height:inherit;
     margin: 0 5px;
     color: #fff;
-    font-size: 17px;
-    font-family: "Сomic Sans MS";
+    font:17px tempus sans itc, Monotype Corsiva, sans-serif;
 }
-
+.product-to-basket2:focus{
+    outline: none;
+}
 .to_basket{
-    /*display: block;*/
+    display: block;
     /*background: #48b27f;*/
-    width: 500px;
+    width: 535px;
     height: 45px;
+    float: right;
 }
-.basket{
+.catalog-tovar-basket{
     display: block;
     text-align: center;
     float: left;
     width: 100px;
-    height:inherit;
+    height:45px;
     margin: 0 5px;
     color: #070304;
-    font-family: "Сomic Sans MS";
-    font-size: 17px;
-
+    font:17px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.catalog-tovar-quantity{
+    border: none;
+    padding: 0 5px;
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    display: inline-block;
+    font: 20px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.catalog-tovar-quantity:focus{
+    outline: none;
+}
+.catalog-tovar-price{
+    margin: 12px 0;
+    height: 20px;
+    font: 20px tempus sans itc, Monotype Corsiva, sans-serif;
+    display: block;
 }
 .comment{
+    padding: 15px;
+    margin: 20px 0 0 0;
     background: FireBrick;
     display: block;
-    width: 800px;
-    height: 200px;
-    float: left;
-    padding: 0 5px; /* Поля вокруг текста */
+    width: 770px;
+    height: 300px;
+}
+h1, h2{
+    font: 30px tempus sans itc, Monotype Corsiva, sans-serif;
 }

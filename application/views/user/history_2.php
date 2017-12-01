@@ -3,39 +3,29 @@
         <p class="meta"><span class="date">Заказ №(номер заказа) от (дата)</span></p>
         <div class="entry_tab">
 
-                <button class="user-order-2" >
-                    <span class="user-order-span"> товар </span>
-                    <span class="user-order-span"> цена </span>
-                    <span class="user-order-span"> кол-во </span>
-                    <span class="user-order-span"> сумма </span>
-                </button>
+                <div class="user-order-2" >
+                    <span class="user-order-span-g"> товар </span>
+                    <span class="user-order-span-g"> цена </span>
+                    <span class="user-order-span-g"> кол-во </span>
+                    <span class="user-order-span-g"> сумма </span>
+                </div>
 
-            <a href="/catalog/tovar/">
-                <button class="user-order" >
+            <a class="history-a" href="/catalog/tovar/">
+                <div class="user-order" >
                     <span class="user-order-span"> мыло </span>
                     <span class="user-order-span"> 100 </span>
                     <span class="user-order-span"> 2 </span>
                     <span class="user-order-span"> 200 </span>
-                </button>
-            </a>
-
-            <a href="/catalog/tovar/">
-                <button class="user-order" >
-                    <span class="user-order-span"> мыло </span>
-                    <span class="user-order-span"> 100 </span>
-                    <span class="user-order-span"> 2 </span>
-                    <span class="user-order-span"> 200 </span>
-                </button>
+                </div>
             </a>
 
 
-
-            <button class="user-order-2" >
-                <span class="user-order-span">  </span>
-                <span class="user-order-span"> </span>
-                <span class="user-order-span"> итог </span>
-                <span class="user-order-span"> 400 </span>
-            </button>
+            <div class="user-order-itog" >
+                <span class="user-order-span-g">  </span>
+                <span class="user-order-span-g"> </span>
+                <span class="user-order-span-g"> итог </span>
+                <span class="user-order-span-g"> 400 </span>
+            </div>
 
         </div>
     </div>

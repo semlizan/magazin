@@ -1,3 +1,9 @@
+.lk{
+     height: 20px;
+     /*width: 990px;*/
+     margin: 0 auto;
+ }
+
 #top-menu  ul{
     display: none;
     background-color: #800000;
@@ -6,11 +12,13 @@
     top: 100%;
 }
 #top-menu  li:hover ul {
-    /*width: 150px;*/
+    width: 150px;
     background-color: FireBrick;
     display: block;
 }
 #top-menu , #top-menu  ul{
+
+    /*float: left;*/
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -35,14 +43,67 @@
 #top-menu  li a {
     display: block;
     padding: 6px;
-    /*width: 100px;*/
+    width: 110px;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    font:14px NotoSans, Geneva, sans-serif;
+    font:20px tempus sans itc, Monotype Corsiva, sans-serif;
 }
 #top-menu  ul li { float: none; }
 #top-menu  li:hover { background-color: FireBrick; }
 #top-menu  ul li:hover { background-color: FireBrick; }
 
+.user-menu-ul{
 
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    list-style-type: none;
+    background-color: #800000;
+}
+.user-menu-li {
+
+    float: right;
+    height: 100%;
+    width: 140px;
+}
+.header-lk{
+width: 120px;
+    font:18px tempus sans itc, Monotype Corsiva, sans-serif;
+    padding: 2px 5px;
+    float: right;
+    vertical-align: middle;
+    text-decoration: none;
+    color: azure;
+    display: block;
+    text-align: center;
+}
+
+.header-lk:hover{
+    background-color: FireBrick;
+    height: 30px;
+}
+.user-menu-li:hover .user-sub-menu{
+    display: block;
+    position: static;
+}
+.user-sub-menu{
+
+    display: none;
+    list-style-type: none;
+    width: 140px;
+    height: 200px;
+    padding: 0;
+    z-index: 101;
+}
+.user-sub-menu-li {
+
+    float: right;
+    position: relative;
+    height: 20px;
+    z-index: 101;
+}
+.user-sub-menu-li-lk{
+    margin-left: 20px;
+}

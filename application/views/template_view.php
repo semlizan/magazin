@@ -11,25 +11,49 @@
     <link rel="stylesheet" type="text/css" href="/css/tovar.css" />
     <link rel="stylesheet" type="text/css" href="/css/registr.css" />
     <link rel="stylesheet" type="text/css" href="/css/table.css" />
+    <link rel="stylesheet" type="text/css" href="/css/basket.css" />
+    <link rel="stylesheet" type="text/css" href="/css/admin.css" />
+    <link rel="stylesheet" type="text/css" href="/css/js.css" />
 
 </head>
 <body>
 
 <!-- Header -->
 <header class="header">
-    <ul id="top-menu">
-        <li><a href="/">Главная</a></li>
-        <li><a href="/user/registr">Регистрация</a></li>
-        <li><a href="/user/vxod">Вход</a></li>
-        <li><a href="/user/LK">Личный кабинет</a>
-        <ul><a href="/user/history">История заказов</a></ul>
-        <li><a href="/user/basket">Корзина</a>
+    <div class="lk">
+        <ul class="user-menu-ul">
+                <li class="user-menu-li">
+                    <a href="/admin/admin_zakaz" class="header-lk">Администратор</a>
+                        <ul class="user-sub-menu">
+                            <li class="user-sub-menu-li"><a href="/admin/index" class="header-lk">Пользователи</a></li>
+                            <li class="user-sub-menu-li"><a href="/admin/admin_zakaz" class="header-lk">Список заказов</a></li>
+                            <li class="user-sub-menu-li"><a href="/admin/admin_tovar" class="header-lk">Товары</a></li>
+                        </ul>
+                </li>
 
-        </li>
-    </ul>
+                <li class="user-menu-li">
+                    <a href="/user/LK" class="header-lk">Личный кабинет</a>
+                    <ul class="user-sub-menu">
+                        <li class="user-sub-menu-li"><a href="/user/history" class="header-lk">История заказов</a></li>
+                        <li class="user-sub-menu-li"><a href="" class="header-lk">Выйти</a></li>
+                    </ul>
+                </li>
+
+            <li class="user-menu-li">
+                <a href="/user/registr" class="header-lk">Регистрация</a>
+            </li>
+
+            <li class="user-menu-li">
+                <a href="/user/vxod" class="header-lk">Вход</a>
+            </li>
+
+            <li class="user-menu-li">
+                <a href="/user/basket" class="header-lk">Корзина</a>
+            </li>
+        </ul>
+</div>
 
     <div id="logo"><a href="/" class="a-main">ШилоНаМыло</a></div>
-
     <ul id="top-menu">
         <li><a href="/catalog/">Женское</a></li>
         <li><a href="/catalog/">Мужское</a></li>
@@ -54,7 +78,7 @@
 <!-- / Main Content -->
 
 <div class="gap"></div>
-
+<div class="clear"></div>
 <!-- Footer -->
 <footer class="footer">
     8-800-555-35-35

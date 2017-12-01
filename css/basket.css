@@ -1,0 +1,46 @@
+.basket{
+    float: right;
+    border: none;
+    text-align: center;
+    background: FireBrick;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height:inherit;
+    margin: 0 5px;
+    color: #fff;
+    font:17px tempus sans itc, Monotype Corsiva, sans-serif;
+
+}
+.delete{
+    height: 22px;
+    margin: 9px 0;
+}
+.user-order_b{
+    padding: 10px 0;
+    /*padding-left: 10px;*/
+    height: 21px;
+    background-color: peachpuff;
+    width: 85%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px tempus sans itc, Monotype Corsiva, sans-serif;
+    /*font-size: large; font-weight: bold;*/
+    color: black;
+    border: none;
+    float: left;
+    /*border-bottom: 1px solid FireBrick;*/
+
+}
+.user-order_b:hover {
+    background-color: FireBrick;
+    color: white;
+}
+.user-order-span-kor{
+    width: 150px;
+    display: inline-block;
+    font: 25px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+ }

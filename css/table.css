@@ -8,42 +8,100 @@
     background: peachpuff;
 }
 .user-order{
-
-    height: 50px;
+    padding: 10px 0;
+    height: 18px;
     background-color: peachpuff;
     width: 100%;
     text-align: center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    font:16px NotoSans, Geneva, sans-serif;
+    font:20px tempus sans itc, Monotype Corsiva, sans-serif;
     color: black;
     cursor: pointer;
     border: none;
+    text-decoration: none;
 }
 .user-order-2{
-
-    height: 50px;
+    padding: 10px 0;
+    height: 21px;
     background-color: peachpuff;
     width: 100%;
     text-align: center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    font:16px NotoSans, Geneva, sans-serif;
-    font-size: large; font-weight: bold
+    font:16px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-size: large; font-weight: bold;
     color: black;
     border: none;
     border-bottom: 1px solid FireBrick;
 
 }
+.user-order-itog{
+    padding: 10px 0;
+    height: 21px;
+    background-color: peachpuff;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-size: large; font-weight: bold;
+    color: black;
+    border: none;
+    border-top: 1px solid FireBrick;
+
+}
 .user-order-span{
     width: 150px;
     display: inline-block;
+    font: 20px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.user-order-span-g{
+    width: 150px;
+    display: inline-block;
+    font: 25px tempus sans itc, Monotype Corsiva, sans-serif;
+    font-weight: bolder;
 }
 .user-order:hover{
     background-color: FireBrick;
     color: white;
 }
 .user-order:focus{
+    outline: none;
+    background-color: FireBrick;
+    color: white;
+    border: none;
+}
+.history-a{
+
+    text-decoration: none;
+}
+.user-order_history{
+    padding: 15px 0;
+    height: 40px;
+    background-color: peachpuff;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font:16px tempus sans itc, Monotype Corsiva, sans-serif;
+    /*font-size: large; font-weight: bold;*/
+    color: black;
+    border: none;
+    /*border-top: 1px solid FireBrick;*/
+}
+
+.user-order_history-span{
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+    font:19px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.user-order_history:hover{
+    background-color: FireBrick;
+    color: white;
+}
+.user-order_history:focus{
     outline: none;
     background-color: FireBrick;
     color: white;
