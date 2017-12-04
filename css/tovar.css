@@ -88,14 +88,14 @@
     font: 20px tempus sans itc, Monotype Corsiva, sans-serif;
     display: block;
 }
-.comment{
+.comment-add{
     border-top: solid 2px FireBrick;
     padding: 15px;
     margin: 20px 0 0 0;
     background: peachpuff;
     display: block;
     width: 770px;
-    height: 300px;
+    height: 240px;
 }
 .catalog-name{
     resize: none;
@@ -134,4 +134,34 @@
     margin: 0 auto;
     color: #fff;
     font: 17px tempus sans itc, Monotype Corsiva, sans-serif;
+}
+.comment{
+    border-top: dotted 2px FireBrick;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    background: peachpuff;
+    display: block;
+    width: 770px;
+    min-height: 200px;
+}
+.tovar-name{
+    display: block;
+    font: 24px tempus sans itc, Monotype Corsiva, sans-serif;
+    height: 24px;
+    width: 200px;
+    float: left;
+}
+.tovar-date{
+    display: block;
+    font: 20px tempus sans itc, Monotype Corsiva, sans-serif;
+    height: 24px;
+    width: 200px;
+    float: right;
+    text-align: right;
+}
+.tovar-comment{
+    display: block;
+    font: 17px tempus sans itc, Monotype Corsiva, sans-serif;
+    width: 690px;
+    margin: 10px 0 0 70px;
 }

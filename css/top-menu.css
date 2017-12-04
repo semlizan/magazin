@@ -71,8 +71,9 @@
 }
 .header-lk{
 width: 120px;
+    height: 30px;
     font:18px tempus sans itc, Monotype Corsiva, sans-serif;
-    padding: 2px 5px;
+    /*padding: 2px 5px;*/
     float: right;
     vertical-align: middle;
     text-decoration: none;
@@ -82,6 +83,7 @@ width: 120px;
 }
 
 .header-lk:hover{
+    display: block;
     background-color: FireBrick;
     height: 30px;
 }
@@ -99,10 +101,10 @@ width: 120px;
     z-index: 101;
 }
 .user-sub-menu-li {
-
+background-color: #800000;
     float: right;
     position: relative;
-    height: 20px;
+    height: 30px;
     z-index: 101;
 }
 .user-sub-menu-li-lk{
